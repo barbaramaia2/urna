@@ -18,7 +18,7 @@ def pesquisar():
 
 def atualizar(num):
     novonumero = int(input("Digite o novo número"))
-    novonome = "Israel"
+    novonome = input("Digite novo nome")
     if num in numero:
         posicao = numero.index(num)
         numero[posicao] = novonumero
@@ -65,4 +65,4 @@ while op != 0:
     elif op == 4:
         valor = int(input("Digite o número da chapa para deletar"))        
         retorno = deletar(valor)   
-        print(retorno)    
+        print(retorno
